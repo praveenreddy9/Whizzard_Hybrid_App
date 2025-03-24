@@ -10,8 +10,27 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/netinfo": "^11.4.1",
+    "axios": "^1.8.4",
+    "lodash": "^4.17.21",
     "react": "18.2.0",
-    "react-native": "0.74.0"
+    "react-native": "0.74.0",
+    "react-native-calendars": "^1.1310.0",
+    "react-native-camera-kit": "^14.2.0",
+    "react-native-date-picker": "^5.0.11",
+    "react-native-deck-swiper": "^2.0.17",
+    "react-native-device-info": "^14.0.4",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-image-picker": "^8.2.0",
+    "react-native-month-selector": "^1.4.0",
+    "react-native-paper": "^5.13.1",
+    "react-native-qrcode-scanner": "^1.5.5",
+    "react-native-signature-capture": "^0.4.12",
+    "react-native-svg": "^15.11.2",
+    "react-native-vector-icons": "^10.2.0",
+    "react-navigation": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
