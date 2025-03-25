@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="black_color">#000000</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="red_color">#FF1E19</color>
+    <color name="text_color">#737373</color>
+    <color name="meru_color">#282460</color>
+    <color name="new_meru_color">#282460</color>
+    <color name="card_deselect">#f6f6f6</color>
+    <color name="green_color">#6eb942</color>
+
+    <color name="colorPrimary">#282460</color>
+    <color name="colorPrimaryDark">#9f0061</color>
+    <color name="colorAccent">#282460</color>
+
+    <color name="meru_payment_option_background">#FFFFFF</color>
+    <color name="separator_color_new">#6a6a6a</color>
+    <color name="to_screen_bg">#F0F0F0</color>
+    <color name="edit_border">#E2E2E2</color>
+    <color name="black_gray">#343434</color>
+    <color name="gray_btn">#E1E1E1</color>
+    <!--<color name="cal_green_dark_color">#10AD94</color>-->
+    <color name="cal_green_light_color">#B9F9F0</color>
+    <color name="grey_border">#D0D0D0</color>
+    <color name="edit_gray">#F2F2F2</color>
+    <color name="edit_gray_dark">#161616</color>
+    <!--<color name="Later_meru_color">#88CCC5</color>-->
+    <color name="Later_genie_color">#AFDBEB</color>
+    <color name="Later_merueva_color">#f2a3ce</color>
+    <color name="gray_dark_btn">#838383</color>
+    <color name="gray_dark_btn_border">#434343</color>
+    <color name="light_gray">#f9f9f9</color>
+    <color name="dark_brown">#663910</color>
+    <color name="light_brown">#DDB290</color>
+    <color name="line_brown">#774721</color>
+    <color name="line_brown_light">#997553</color>
+    <color name="line_brown_text_light">#959393</color>
+    <color name="separator_color_new_light">#C8C8C8</color>
+    <color name="dark_gray">#D1D1D1</color>
+    <color name="wallet_blue_color">#282460</color>
+    <!-- <color name="dark_brown">#714016</color> -->
+
+    <color name="wallet_background">#FFFFFF</color>
+    <color name="wallet_row_background">#FFFFFF</color>
+    <color name="wallet_checkbox_inactive">#7D7C7C</color>
+    <!--<color name="wallet_checkbox_active">#01A975</color>-->
+    <color name="primaryColor">#FFFFFF</color>
+    <color name="yellow">#FEC30D</color>
+    <color name="rainbow">#f3912a</color>
+    <color name="notification_icon_bg">#fec414</color>
+    <color name="translucent_black">#80000000</color>
+    <color name="notification_color">#FDE116</color>
+    <color name="wallet_checkbox_txt">#323c47</color>
+    <color name="tmp_card_bg">#E5E5E5</color>
+
+    <integer-array name="rainbow">
+        <item>@color/white_color</item>
+        <item>@color/white_color</item>
+        <item>@color/rainbow</item>
+    </integer-array>
+
+
+    <!-- Meru New Design Colors -->
+
+    <color name="menu_background">#FFFFFF</color>
+    <color name="menu_textcolor">#3B474C</color>
+    <color name="menu_subtextcolor">#6A7273</color>
+    <color name="menu_textcolor_green">#282460</color>
+    <color name="menu_seperator">#CCffffff</color>
+    <color name="menu_floatbutton_color">#F1F4F5</color>
+
+    <color name="action_bar_color">#F4F7FB</color>
+    <color name="nonseletced_color">#ACACAC</color>
+    <color name="shadow_color">#75000000</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="inactive_button">#908c8b</color>
+    <color name="confirmBooking_button">#353535</color>
+    <color name="versionname_color">#989898</color>
+    <color name="loc_textcolor">#676767</color>
+    <color name="statusexpanded_color">#272727</color>
+    <color name="statusexpanded_bgcolor">#979797</color>
+    <color name="statusexpanded_rlbgcolor">#3e3d3e</color>
+    <color name="tabfrag_shareride_color">#f9f8f8</color>
+    <color name="tabfrag_seperator">#818181</color>
+    <color name="tabfrag_txtloc">#5e5d5d</color>
+    <color name="locact_scroll">#FAFAFA</color>
+    <color name="laterfrag_txtcolor">#1b1b1b</color>
+    <color name="trackcab_ratingtxt">#616161</color>
+    <color name="trackcab_fromaddress">#4a4a4a</color>
+    <color name="trackcab_paymentmode">#414141</color>
+    <color name="tripconfirm_drop">#232323</color>
+    <color name="tripconfirm_card">#fbfbfb</color>
+
+    <color name="headercoloralpha">#D8D8D8</color>
+    <color name="tripconfirm_bookinginfobg">#EEFDFF</color>
+    <color name="upcomingbooking_seperator">#e0e0e0</color>
+    <color name="videofrag_rlbg">#80ffffff</color>
+    <color name="walletprovider_error">#ff0303</color>
+    <!--<color name="walletprovider_term">#35BA91</color>-->
+    <color name="walletprovider_rs">#231f20</color>
+    <color name="edit_toolbarbg">#363535</color>
+    <color name="edit_viewbg">#d5d8d8</color>
+    <color name="exactometer_separator">#f0ede5</color>
+    <color name="exactometer_cardbg">#fdfdfd</color>
+    <color name="exactometer_llbg">#CACACA</color>
+    <color name="marketplace_parentbg">#f0ede5</color>
+    <color name="marketplace_separator">#b0b0b0</color>
+    <color name="marketplace_viewbg">#d3d3d3</color>
+    <color name="option_pagerbg">#ABCDEF</color>
+    <color name="cardrow_cancelbg">#a1a1a1</color>
+    <color name="category_txtcolor">#4d4d4d</color>
+    <color name="customtoast_bg">#fe0404</color>
+    <color name="deletedialog_txtcolor">#404040</color>
+    <color name="deletedialog_canceltxtcolor">#9c9c9c</color>
+    <color name="deletedialog_yestxtcolor">#fdc40d</color>
+    <color name="rebookingdialog_seperator">#dddddd</color>
+    <color name="rebooking_message">#1d1d1d</color>
+    <color name="icecontact_txtcolor">#727272</color>
+    <color name="icecontact_viewbg">#D4D4D4</color>
+    <color name="iceweb_txtbg">#E7F6EF</color>
+    <color name="icealert_rootbg">#E7F6EF</color>
+    <color name="manthan_airportnotification">#FFEEEE</color>
+    <color name="minifrag_bg">#5886FA</color>
+    <color name="mybooking_shadow">#BABABA</color>
+    <color name="package_childfare">#101010</color>
+    <color name="package_parentseperator">#BABABA</color>
+    <color name="package_parenttxtcolor">#474747</color>
+    <color name="receipt_txtcolor">#000000</color>
+    <color name="receipt_seperator">#e0e0e0</color>
+    <color name="receipt_layoutbg">#F4F4F4</color>
+    <color name="product_txtcolor">#333333</color>
+    <color name="selectimage_txtcolor">#303030</color>
+    <color name="datedialog_statuscolor">#282460</color>
+    <color name="datedialog_datetxt">#f9f8f8</color>
+    <color name="datedialog_llbg">#363535</color>
+    <color name="rideshare_hintcolor">#b8b8b8</color>
+    <color name="rideshare_separator">#BABABA</color>
+    <color name="rideshare_txtcolor">#5e5d5d</color>
+    <color name="rideshare_bg">#F3F3F3</color>
+    <color name="statusbar_bg">#3e3d3e</color>
+    <color name="feedback_btncolor">#d5d5d5</color>
+    <color name="wallet_offer_bg">#d1f7fc</color>
+    <color name="help_bg">#D8000000</color>
+    <color name="help_bg_new">#65000000</color>
+    <color name="light_black">#595959</color>
+    <color name="no_cab_bg">#f7f7f7</color>
+    <color name="new_txt_color">#2c2b2b</color>
+    <color name="new_black_color">#3b3b3b</color>
+    <color name="grey_circle_color">#cbcbcb</color>
+    <color name="grey_circle_eta">#5a5a5a</color>
+    <color name="grey_button">#7a7878</color>
+    <color name="grey_button_text">#9e9e9e</color>
+    <color name="grey_card_text">#aaa9a9</color>
+    <color name="brand_text">#666666</color>
+    <color name="rating_text">#666666</color>
+    <color name="fare_discounted_text">#666666</color>
+    <color name="light_grey">#444444</color>
+    <color name="light_grey_other">#777777</color>
+    <color name="new_light_grey">#e7e6e6</color>
+    <color name="market_list_background">#ECECEC</color>
+    <color name="market_list_eta_bkgrnd">#ecf0f2</color>
+    <color name="market_list_eta_text">#666666</color>
+    <color name="fare_selected">#3e4040</color>
+    <color name="model_selected">#595858</color>
+    <color name="rating_selected">#6c6c6c</color>
+    <color name="new_black_tip">#080808</color>
+    <color name="exacto_grey_text">#969696</color>
+    <color name="trips_text">#313131</color>
+    <color name="trips_fare">#2e2e2e</color>
+    <color name="trips_cab">#888888</color>
+
+    <color name="card_bg">#F1F1F1</color>
+    <color name="meru_color_new">#282460</color>
+    <color name="meru_color_gradient">#6767db</color>
+    <color name="gray_new">#969696</color>
+    <color name="blue_new">#3b3794</color>
+    <color name="gray_shade">#4c4c4c</color>
+    <color name="signin_color">#979ea7</color>
+
+    <color name="resend_otp_color">#201a5f</color>
+    <color name="terms_condition">#3369fc</color>
+    <color name="wallet_edittext">#666666</color>
+    <color name="otp_btn_text">#9f9f9f</color>
+    <color name="otp_btn_background">#ededed</color>
+    <color name="meru_purple">#282460</color>
+    <color name="otp_line">#cfcece</color>
+    <color name="gray_seperator">#e3e3e3</color>
+    <color name="password_hint">#c7c6c6</color>
+    <color name="offer_red">#e44a8a</color>
+    <color name="card_info_gray">#999999</color>
+    <color name="meru_light_grey">#656565</color>
+    <color name="meru_black4">#212121</color>
+    <color name="meru_white_transparent">#B9FFFFFF</color>
+    <color name="meru_fly_textview">#6e6e6e</color>
+
+
+
+
+
+    <array name="dot_colors">
+        <item>#b7b7b7</item>
+        <item>#9a9a9a</item>
+        <item>#a3a1a1</item>
+    </array>
+
+    /*  new colous  */
+    <color name="grey_text">#7f7f7f</color>
+    <color name="grey_text2">#9a9a9a</color>
+    <color name="link_text">#3369ff</color>
+    <color name="meru_black">#221f1f</color>
+    <color name="meru_black_text">#070707</color>
+    <color name="meru_grey_button">#cccccc</color>
+    <color name="meru_grey_2">#b7b7b7</color>
+    <color name="meru_grey_3">#f5f5f5</color>
+    <color name="meru_grey_4">#a3a1a1</color>
+    <color name="meru_green">#009933</color>
+    <color name="meru_green2">#4CAF50</color>
+    <color name="meru_red">#e50606</color>
+    <color name="meru_grey_text">#8b8b8b</color>
+    <color name="meru_grey_text1">#535353</color>
+    <color name="meru_yellow">#fad482</color>
+
+    <color name="routePrimaryColor">#63c495</color>
+    <color name="routeSecondaryColor">#4e487c</color>
+    <color name="routeShadowColor">#db949494</color>
+
+    <color name="picker_background">#3F51B5</color>
+    <color name="picker_button_background_selected">#3F51B5</color>
+    <color name="picker_button_background">@android:color/white</color>
+    <color name="picker_button_background_innactive">#BDBDBD</color>
+    <color name="picker_default_text_color">#999</color>
+    <color name="picker_default_selected_text_color">@android:color/black</color>
+    <color name="picker_default_selector_color">#646464</color>
+
+    <color name="reserve_radio_button">#675656</color>
+    <color name="cardView_transparent">#f5f5f5</color>
+    <color name="seekbar_color">#77cb74</color>
+    <color name="reserve_black">#191717</color>
+    <color name="engage_red_color">#ff1c1c</color>
+</resources>

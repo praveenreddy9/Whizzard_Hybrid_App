@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/vehicle_two"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red_color"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="ORDER ALERT!"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_button"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tv_orderid"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:text="ORDER ID"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_circle_color"
+        android:padding="10dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:background="@color/grey_circle_color"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_color"
+                android:textSize="14dp"
+                android:text="PickUp Address"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_overlay"
+                android:textSize="14dp"
+                android:id="@+id/tv_pickupaddress"
+                android:maxLines="3"
+                android:text="Hitech City Rd, Gangaram, Chanda Nagar, Hyderabad, Telangana 500133"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="0.6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pickup"
+            android:id="@+id/igv_navigationpickup"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_circle_color"
+        android:padding="10dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:background="@color/grey_circle_color"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_color"
+                android:textSize="14dp"
+                android:text="Delivery Address"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_overlay"
+                android:textSize="14dp"
+                android:id="@+id/tv_deliveryaddress"
+                android:maxLines="3"
+                android:text="Hitech City Rd, Gangaram, Chanda Nagar, Hyderabad, Telangana 500133"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="0.6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/delivery"
+            android:id="@+id/igv_navigationdrop"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_reject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red_color"
+            android:textColor="@color/white_color"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.5"
+            android:text="REJECT"/>
+        <Button
+            android:id="@+id/btn_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green_color"
+            android:textColor="@color/white_color"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:text="Accept"/>
+
+    </LinearLayout>
+</LinearLayout>

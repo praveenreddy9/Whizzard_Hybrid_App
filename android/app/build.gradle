@@ -50,6 +50,9 @@ react {
     //   The list of flags to pass to the Hermes compiler. By default is "-O", "-output-source-map"
     // hermesFlags = ["-O", "-output-source-map"]
 }
+project.ext.react = [
+        enableHermes: true  // Make sure this is true
+]
 
 /**
  * Set this to true to Run Proguard on Release builds to minify the Java bytecode.
