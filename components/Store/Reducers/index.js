@@ -13,8 +13,5 @@ const reducers = combineReducers({
     TripSummaryReport : TripSummaryReportReducer,
     PendingUsers : PendingUserReducer,
     Notification : NotificationReducer
-
-    
 })
-
 export default reducers;
