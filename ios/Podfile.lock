@@ -982,6 +982,8 @@ PODS:
     - Yoga
   - react-native-netinfo (11.4.1):
     - React-Core
+  - react-native-safe-area-context (5.3.0):
+    - React-Core
   - react-native-signature-capture (0.4.12):
     - React
   - react-native-splash-screen (3.3.0):
@@ -1237,13 +1239,28 @@ PODS:
     - Yoga
   - RNCAsyncStorage (2.1.2):
     - React-Core
+  - RNCPicker (2.11.0):
+    - React-Core
   - RNDeviceInfo (14.0.4):
     - React-Core
   - RNFastImage (8.6.3):
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
-  - RNGestureHandler (2.24.0):
+  - RNGestureHandler (1.9.0):
+    - React-Core
+  - RNImageCropPicker (0.42.0):
+    - React-Core
+    - React-RCTImage
+    - RNImageCropPicker/QBImagePickerController (= 0.42.0)
+    - TOCropViewController (~> 2.7.4)
+  - RNImageCropPicker/QBImagePickerController (0.42.0):
+    - React-Core
+    - React-RCTImage
+    - TOCropViewController (~> 2.7.4)
+  - RNPermissions (5.3.0):
+    - React-Core
+  - RNReanimated (3.12.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1264,15 +1281,28 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNImageCropPicker (0.42.0):
+  - RNScreens (4.9.2):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
     - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
     - React-RCTImage
-    - RNImageCropPicker/QBImagePickerController (= 0.42.0)
-    - TOCropViewController (~> 2.7.4)
-  - RNImageCropPicker/QBImagePickerController (0.42.0):
-    - React-Core
-    - React-RCTImage
-    - TOCropViewController (~> 2.7.4)
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - RNSVG (15.11.2):
     - React-Core
   - RNVectorIcons (10.2.0):
@@ -1344,6 +1374,7 @@ DEPENDENCIES:
   - react-native-geolocation-service (from `../node_modules/react-native-geolocation-service`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
+  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-signature-capture (from `../node_modules/react-native-signature-capture`)
   - react-native-splash-screen (from `../node_modules/react-native-splash-screen`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
@@ -1371,10 +1402,14 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeCameraKit (from `../node_modules/react-native-camera-kit`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
+  - "RNCPicker (from `../node_modules/@react-native-picker/picker`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNFastImage (from `../node_modules/react-native-fast-image`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNImageCropPicker (from `../node_modules/react-native-image-crop-picker`)
+  - RNPermissions (from `../node_modules/react-native-permissions`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
+  - RNScreens (from `../node_modules/react-native-screens`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -1459,6 +1494,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-image-picker"
   react-native-netinfo:
     :path: "../node_modules/@react-native-community/netinfo"
+  react-native-safe-area-context:
+    :path: "../node_modules/react-native-safe-area-context"
   react-native-signature-capture:
     :path: "../node_modules/react-native-signature-capture"
   react-native-splash-screen:
@@ -1513,6 +1550,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-camera-kit"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-async-storage/async-storage"
+  RNCPicker:
+    :path: "../node_modules/@react-native-picker/picker"
   RNDeviceInfo:
     :path: "../node_modules/react-native-device-info"
   RNFastImage:
@@ -1521,6 +1560,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-gesture-handler"
   RNImageCropPicker:
     :path: "../node_modules/react-native-image-crop-picker"
+  RNPermissions:
+    :path: "../node_modules/react-native-permissions"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   RNVectorIcons:
@@ -1565,6 +1610,7 @@ SPEC CHECKSUMS:
   react-native-geolocation-service: 608e1da71a1ac31b4de64d9ef2815f697978c55b
   react-native-image-picker: bae6d745724336b1716c41ce02bdebd62c7d9dc6
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
+  react-native-safe-area-context: f6fd1adb0c0dfb0a528f561c7c6f9297f3391af3
   react-native-signature-capture: 416a3947684e049a5b012cdd6496f878dc797f16
   react-native-splash-screen: 4312f786b13a81b5169ef346d76d33bc0c6dc457
   React-nativeconfig: 951ec32f632e81cbd7d40aebb3211313251c092e
@@ -1592,10 +1638,14 @@ SPEC CHECKSUMS:
   ReactCommon: 2cde697fd80bd31da1d6448d25a5803088585219
   ReactNativeCameraKit: e2c09e0091d12efed63850338145b772145d13db
   RNCAsyncStorage: addfc2cb6511dbe199c56c6b26ede383b6c38919
+  RNCPicker: 4f6d5e8d107064be32dfc8f1bcb5a3741135db0b
   RNDeviceInfo: feea80a690d2bde1fe51461cf548039258bd03f2
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
-  RNGestureHandler: 4d82e79c24b18e83040ed9d6f1a178267c5c6aa8
+  RNGestureHandler: 9b7e605a741412e20e13c512738a31bd1611759b
   RNImageCropPicker: 64b6bec9ec185ee59b71a93d7058816bd0e1916e
+  RNPermissions: 8bccf82d4caa70a90ca6cf7f419c75f8c8c725c9
+  RNReanimated: 8978449b2a511388ea71faf1e66f669134e87658
+  RNScreens: 2557adbeb88fe3dd34831ce269ad1880af807bba
   RNSVG: e451741721b9fd3db71b06aafe9335d09a189692
   RNVectorIcons: 845eda5c7819bd29699cafd0fc98c9d4afe28c96
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
