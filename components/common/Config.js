@@ -34,11 +34,11 @@ const routes = {
 
 
     APP_VERSION_NUMBER:'2.5.72', //2.5.71 is Admin // 2.5.62 is MLL //2.5.45 is test //2.5.13 is jeevan/sai
-    ANDROID_APP_VERSION_NUMBER:'2.5.77', //2.5.77 is Admin // 2.5.62 is MLL //2.5.45 is test //2.5.13 is jeevan/sai
+    ANDROID_APP_VERSION_NUMBER:'2.5.83', //2.5.77 is Admin // 2.5.62 is MLL //2.5.45 is test //2.5.13 is jeevan/sai
     IOS_APP_VERSION_NUMBER:'2.5.77', //2.5.77 is Admin // 2.5.62 is MLL //2.5.46 is test //2.5.13 is jeevan/sai
 
-    showAPKDate:false,
-    APK_DATA:'08-Nov-2024',
+    showAPKDate:true,
+    APK_DATA:'28-Mar-2025',
 
     // SOCKET_URL :Platform.OS === 'ios' ? io("https://trackapi.whizzard.in") : io("http://trackapi.whizzard.in"),
     SOCKET_BASE_URL :Platform.OS === 'ios' ? "https://trackapi.whizzard.in" : "http://trackapi.whizzard.in",

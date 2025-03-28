@@ -18,7 +18,7 @@ import {Styles, CSpinner, LoadSVG} from './common';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Services from './common/Services';
 import {TextInput, DefaultTheme} from 'react-native-paper';
-import Geolocation from 'react-native-geolocation-service';
+import Geolocation from '@react-native-community/geolocation';
 import DeviceInfo from 'react-native-device-info';
 import * as permissions from 'react-native-permissions';
 import {request, PERMISSIONS, RESULTS} from 'react-native-permissions';
@@ -168,6 +168,7 @@ export default class LoginScreen extends Component {
             const granted = request(Platform.OS === 'ios' ?
                 PERMISSIONS.IOS.LOCATION_ALWAYS || PERMISSIONS.IOS.LOCATION_WHEN_IN_USE :
                 PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION).then((result) => {
+                    console.log(`result====${result}`);
                 if ('granted' === result) {
                     this.requestCurrentLocation();
                 } else {

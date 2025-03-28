@@ -24,7 +24,7 @@ import HomeScreen from "../HomeScreen";
 import _ from "lodash";
 import MaterialIcons from "react-native-vector-icons/dist/MaterialIcons";
 import FontAwesome from "react-native-vector-icons/dist/FontAwesome";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
  import {Column as Col, Row} from "react-native-flexbox-grid";
 import Ionicons from "react-native-vector-icons/dist/Ionicons";
 import ImageZoom from "react-native-image-pan-zoom";

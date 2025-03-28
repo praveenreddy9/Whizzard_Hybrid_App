@@ -13,7 +13,7 @@ import {Styles} from "./Styles";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Utils from "./Utils";
 import FastImage from "react-native-fast-image";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
 import Services from "./Services";
  import HomeScreen from "../HomeScreen";
 import DeviceInfo from "react-native-device-info";

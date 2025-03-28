@@ -15,7 +15,7 @@ import Services from "../common/Services";
 import {Appbar, Card, Button, DefaultTheme,} from "react-native-paper";
 import FontAwesome from 'react-native-vector-icons/dist/FontAwesome';
 import MaterialIcons from 'react-native-vector-icons/dist/MaterialIcons';
-import Geolocation from 'react-native-geolocation-service';
+import Geolocation from '@react-native-community/geolocation';
 import QRCodeScanner from 'react-native-qrcode-scanner';
 import HomeNoticeScreen from '../common/HomeNoticeScreen';
  import {PERMISSIONS, request} from "react-native-permissions";

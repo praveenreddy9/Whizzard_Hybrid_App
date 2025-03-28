@@ -31,7 +31,7 @@ import Ionicons from 'react-native-vector-icons/dist/Ionicons';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import FastImage from 'react-native-fast-image'
 import HomeNoticeScreen from './common/HomeNoticeScreen';
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
 import HomeScreen from "./HomeScreen";
 import ImageZoom from "react-native-image-pan-zoom";
 import _ from "lodash";

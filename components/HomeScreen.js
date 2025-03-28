@@ -40,7 +40,7 @@ import Icon from 'react-native-vector-icons/dist/MaterialIcons';
 import OfflineNotice from './common/OfflineNotice';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import FastImage from "react-native-fast-image";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
 import DeviceInfo from "react-native-device-info";
 import SignatureCapture from 'react-native-signature-capture';
 import FontAwesome from "react-native-vector-icons/dist/FontAwesome";
@@ -441,12 +441,6 @@ export default class HomeScreen extends React.Component {
                     });
                     Utils.setToken('userRole', JSON.stringify(loggedInUserDetails.role), function () {
                     });
-
-                    if (loggedInUserDetails.requireSocketAction) {
-                        self.emitSocketToStart()
-                    } else {
-                        self.emitSocketToStop()
-                    }
 
 
                     if (currentShift === null) {

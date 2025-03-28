@@ -31,7 +31,7 @@ import FastImage from 'react-native-fast-image';
 import Ionicons from "react-native-vector-icons/dist/Ionicons";
 import HomeNoticeScreen from "./common/HomeNoticeScreen";
 import {CDismissButton} from "./common";
- import Geolocation from "react-native-geolocation-service";
+ import Geolocation from '@react-native-community/geolocation';
 import HomeScreen from "./HomeScreen";
 import DeviceInfo from "react-native-device-info";
 import ImageZoom from "react-native-image-pan-zoom";

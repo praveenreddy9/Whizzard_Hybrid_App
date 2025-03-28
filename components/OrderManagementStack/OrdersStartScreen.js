@@ -18,7 +18,7 @@ import {
 import OfflineNotice from '../common/OfflineNotice';
 import HomeScreen from "../HomeScreen";
 import MaterialIcons from "react-native-vector-icons/dist/MaterialIcons";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
  import {Column as Col, Row} from "react-native-flexbox-grid";
 import _ from "lodash";
 import {CheckBox} from "react-native-elements";

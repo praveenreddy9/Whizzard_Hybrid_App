@@ -28,7 +28,7 @@ import Config from "./common/Config";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Ionicons from "react-native-vector-icons/dist/Ionicons";
 import RNDateTimePicker from "react-native-date-picker";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
  import {platforms} from 'react-native/react-native.config';
 import {PERMISSIONS, request} from 'react-native-permissions';
 

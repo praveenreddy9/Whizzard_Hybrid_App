@@ -20,7 +20,7 @@ import Utils from "../common/Utils";
 import Config from "../common/Config";
 import HomeScreen from "../HomeScreen";
 import AsyncStorage from "@react-native-async-storage/async-storage";
- import Geolocation from "react-native-geolocation-service";
+ import Geolocation from '@react-native-community/geolocation';
 // import Geocoder from "react-native-geocoding";
 // import MapView, {Marker} from "react-native-maps/index";
 import {CheckBox} from "react-native-elements";

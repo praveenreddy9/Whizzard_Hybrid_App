@@ -9,7 +9,7 @@ import {
 import {Styles} from "./Styles";
 import MaterialIcons from "react-native-vector-icons/dist/MaterialIcons";
 import Utils from "./Utils";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
 import Services from "./Services";
 
 var LocationService = NativeModules.LocationService; //LOCATIONS SERIVCES CALL

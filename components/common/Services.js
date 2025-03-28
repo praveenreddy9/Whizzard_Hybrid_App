@@ -20,7 +20,7 @@ import FastImage from "react-native-fast-image";
 import Ionicons from "react-native-vector-icons/dist/Ionicons";
  import {CText, LoadImages, LoadSVG, Styles} from "../common";
 import Utils from "../common/Utils";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
 import FontAwesome from "react-native-vector-icons/dist/FontAwesome";
 import Entypo from "react-native-vector-icons/dist/Entypo";
 import Zocial from "react-native-vector-icons/dist/Zocial";

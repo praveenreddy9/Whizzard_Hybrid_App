@@ -19,7 +19,7 @@ import OfflineNotice from './common/OfflineNotice';
 import MaterialIcons from "react-native-vector-icons/dist/MaterialIcons";
 import Entypo from "react-native-vector-icons/dist/Entypo";
 import HomeScreen from "./HomeScreen";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
  import Ionicons from "react-native-vector-icons/Ionicons";
 import {PERMISSIONS, request} from 'react-native-permissions';
 import _ from "lodash";

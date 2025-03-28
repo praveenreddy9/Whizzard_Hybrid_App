@@ -13,7 +13,7 @@ import {Appbar, Card, Button, DefaultTheme} from "react-native-paper";
 import MaterialIcons from 'react-native-vector-icons/dist/MaterialIcons';
 import QRCodeScanner from 'react-native-qrcode-scanner';
 import OfflineNotice from '../common/OfflineNotice';
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
 import {PERMISSIONS, request} from "react-native-permissions";
 
 export default class userQRcode extends React.Component {

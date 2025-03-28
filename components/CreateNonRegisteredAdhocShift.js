@@ -39,7 +39,7 @@ import _ from 'lodash';
 import OfflineNotice from './common/OfflineNotice';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import HomeScreen from "./HomeScreen";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
 import FontAwesome5 from "react-native-vector-icons/dist/FontAwesome";
 import ImageZoom from "react-native-image-pan-zoom";
 // import RNDateTimePicker, {Event} from '@react-native-community/datetimepicker';

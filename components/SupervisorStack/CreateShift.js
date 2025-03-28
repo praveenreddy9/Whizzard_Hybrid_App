@@ -21,7 +21,7 @@ import {CheckBox} from 'react-native-elements';
 import OfflineNotice from './../common/OfflineNotice';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import HomeScreen from "../HomeScreen";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
 import {PERMISSIONS, request} from 'react-native-permissions';
 import DatePicker from "react-native-date-picker";
 import RNDateTimePicker from "react-native-date-picker";

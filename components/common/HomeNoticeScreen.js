@@ -17,7 +17,7 @@ import {Button} from "react-native-paper";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Utils from "./Utils";
 import FastImage from "react-native-fast-image";
-import Geolocation from "react-native-geolocation-service";
+import Geolocation from '@react-native-community/geolocation';
  import {PERMISSIONS, request} from "react-native-permissions";
 
 var LocationService = NativeModules.LocationService; //LOCATIONS SERIVCES CALL
